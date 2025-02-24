@@ -1,5 +1,5 @@
 [Unit]
-Description=DumbKan: kanban
+Description=DumbWhoIs: WhoIs
 After=network.target
 
 [Service]
