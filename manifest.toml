@@ -1,0 +1,56 @@
+#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
+
+packaging_format = 2
+
+id = "dumbkan"
+name = "DumbKan"
+description.en = "Dumb Kanban"
+description.fr = "Kanban simple"
+
+version = "1.0.0~ynh1"
+
+maintainers = ["eric_G"]
+
+[upstream]
+license = "GPL-3.0"
+website = "https://www.dumbware.io/"
+code = "https://github.com/DumbWareio/DumbPad"
+
+[integration]
+yunohost = ">= 12.0.9"
+helpers_version = "2.1"
+architectures = "all"
+multi_instance = true
+
+ldap = false
+sso = false
+
+disk = "50M"
+ram.build = "50M"
+ram.runtime = "50M"
+
+[install]
+    [install.domain]
+    type = "domain"
+
+    [install.init_main_permission]
+    type = "group"
+    default = "visitors"
+
+[resources]
+
+    [resources.sources]
+
+    [resources.sources.main]
+    url = "https://github.com/DumbWareio/DumbKan/archive/f8eacd5f5d2d3f916281ff0156be60e6cfbebb41.tar.gz"
+    sha256 = "2fd6d454889ec18ff582a353fd1320886de2989c342863bd061cac359abc9392"
+    autoupdate.strategy = "latest_github_commit"
+
+    [resources.system_user]
+
+    [resources.install_dir]
+
+    [resources.permissions]
+    main.url = "/"
+
+    [resources.ports]
