@@ -2,10 +2,10 @@
 
 packaging_format = 2
 
-id = "dumbkan"
-name = "DumbKan"
-description.en = "Dumb Kanban"
-description.fr = "Kanban simple"
+id = "dumbwhois"
+name = "DumbWhois"
+description.en = "Dumb WhoIs"
+description.fr = "WhoIs simple"
 
 version = "1.0.0~ynh1"
 
@@ -14,7 +14,7 @@ maintainers = ["eric_G"]
 [upstream]
 license = "GPL-3.0"
 website = "https://www.dumbware.io/"
-code = "https://github.com/DumbWareio/DumbPad"
+code = "https://github.com/DumbWareio/DumbWhois"
 
 [integration]
 yunohost = ">= 12.0.9"
@@ -42,8 +42,8 @@ ram.runtime = "50M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/DumbWareio/DumbKan/archive/f8eacd5f5d2d3f916281ff0156be60e6cfbebb41.tar.gz"
-    sha256 = "2fd6d454889ec18ff582a353fd1320886de2989c342863bd061cac359abc9392"
+    url = "https://github.com/DumbWareio/DumbWhois/archive/ee62ea13f6359a3e89e79fed55acec8bc3a9f25c.tar.gz"
+    sha256 = "d9258aed0f9fa89bc3adbe024e5d7110407a5ac4bbcc8eca07a144823d6e3773"
     autoupdate.strategy = "latest_github_commit"
 
     [resources.system_user]
