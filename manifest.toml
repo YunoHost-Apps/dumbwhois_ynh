@@ -4,8 +4,8 @@ packaging_format = 2
 
 id = "dumbwhois"
 name = "DumbWhois"
-description.en = "Dumb WhoIs"
-description.fr = "WhoIs simple"
+description.en = "simple WHOIS, IP, and ASN lookups"
+description.fr = "Recherche simple de WHOIS, d'IP et d'ASN"
 
 version = "1.0.0~ynh1"
 
