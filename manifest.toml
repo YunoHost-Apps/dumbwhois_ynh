@@ -15,6 +15,7 @@ maintainers = ["eric_G"]
 license = "GPL-3.0"
 website = "https://www.dumbware.io/"
 code = "https://github.com/DumbWareio/DumbWhois"
+fund = "https://buymeacoffee.com/dumbware"
 
 [integration]
 yunohost = ">= 12.0.9"
@@ -25,9 +26,9 @@ multi_instance = true
 ldap = false
 sso = false
 
-disk = "50M"
-ram.build = "50M"
-ram.runtime = "50M"
+disk = "200M"
+ram.build = "200M"
+ram.runtime = "40M"
 
 [install]
     [install.domain]
