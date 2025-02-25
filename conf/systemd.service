@@ -1,5 +1,5 @@
 [Unit]
-Description=DumbWhoIs: WhoIs
+Description=DumbWhoIs: WHOIS, IP, and ASN lookups
 After=network.target
 
 [Service]
