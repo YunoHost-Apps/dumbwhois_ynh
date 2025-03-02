@@ -37,7 +37,7 @@ A simple web application for looking up WHOIS, IP, and ASN information using fre
 - URL query parameter support for direct lookups
 
 
-**Поставляемая версия:** 1.0.0~ynh1
+**Поставляемая версия:** 1.0.0~ynh2
 
 ## Снимки экрана
 
