@@ -37,7 +37,7 @@ Une application web simple pour rechercher des informations WHOIS, IP et ASN en 
 - Prise en charge des paramètres de requête d'URL pour les recherches directes
     
 
-**Version incluse :** 1.0.0~ynh1
+**Version incluse :** 1.0.0~ynh2
 
 ## Captures d’écran
 
