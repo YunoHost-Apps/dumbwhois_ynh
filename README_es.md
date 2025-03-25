@@ -3,7 +3,7 @@ Este archivo README esta generado automaticamente<https://github.com/YunoHost/ap
 No se debe editar a mano.
 -->
 
-# DumbWhois para Yunohost
+# DumbWhois para YunoHost
 
 [![Nivel de integración](https://apps.yunohost.org/badge/integration/dumbwhois)](https://ci-apps.yunohost.org/ci/apps/dumbwhois/)
 ![Estado funcional](https://apps.yunohost.org/badge/state/dumbwhois)
