@@ -7,7 +7,7 @@ name = "DumbWhois"
 description.en = "simple WHOIS, IP, and ASN lookups"
 description.fr = "Recherche simple de WHOIS, d'IP et d'ASN"
 
-version = "2025.03.23~ynh1"
+version = "2025.03.24~ynh1"
 
 maintainers = ["eric_G"]
 
@@ -43,8 +43,8 @@ ram.runtime = "40M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://github.com/DumbWareio/DumbWhois/archive/78c8b8c2f7913678e81ba55e685b3f9eac745917.tar.gz"
-    sha256 = "409a57c2400203c54f1aecfabdd35b49e3e345b604c3f83613ab7ba6c938475c"
+    url = "https://github.com/DumbWareio/DumbWhois/archive/73d800b420e631e0dac7a53ce54bd0bfeaeaf097.tar.gz"
+    sha256 = "c7787a39417e8f4c2be34c630a5d54ed1b6fef90743f03ee702606dee22b5bf7"
     autoupdate.upstream = "https://github.com/DumbWareio/DumbWhois"
     autoupdate.strategy = "latest_github_commit"
 
