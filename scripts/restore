@@ -1,6 +1,5 @@
 #!/bin/bash
 
-
 source /usr/share/yunohost/helpers
 
 #=================================================
@@ -9,13 +8,6 @@ source /usr/share/yunohost/helpers
 ynh_script_progression "Restoring the app main directory..."
 
 ynh_restore "$install_dir"
-
-#=================================================
-# REINSTALL DEPENDENCIES
-#=================================================
-ynh_script_progression "Reinstalling dependencies..."
-
-#REMOVEME? ynh_nodejs_install
 
 #=================================================
 # RESTORE SYSTEM CONFIGURATIONS
@@ -34,7 +26,7 @@ yunohost service add "$app" --description="Dumb WhoIs" --log="/var/log/$app/$app
 #=================================================
 ynh_script_progression "Reloading NGINX web server and $app's service..."
 
-ynh_systemctl --service="$app" --action="start" --log_path="systemd"
+ynh_systemctl --service="$app" --action="start"
 
 ynh_systemctl --service=nginx --action=reload
 
