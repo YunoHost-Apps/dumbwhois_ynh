@@ -7,7 +7,7 @@ name = "DumbWhois"
 description.en = "simple WHOIS, IP, and ASN lookups"
 description.fr = "Recherche simple de WHOIS, d'IP et d'ASN"
 
-version = "2026.02.02~ynh1"
+version = "2026.02.02~ynh2"
 
 maintainers = ["eric_G"]
 
